@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/asren44/go-yookassa/pkg/models"
+	"github.com/arsen44/go-yookassa/pkg/models"
 )
 
 const (
