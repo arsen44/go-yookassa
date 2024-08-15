@@ -18,6 +18,7 @@ type PaymentMethod struct {
 
 // Стркутура для описания данных карты
 type Card struct {
+	Number        string `json:"number"`
 	Last4         string `json:"last4"`
 	ExpiryYear    string `json:"expiry_year"`
 	ExpityMonth   string `json:"expiry_month"`
